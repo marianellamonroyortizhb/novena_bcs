@@ -3,7 +3,7 @@ const indices = [
   {
     name: "Oración para todos los días",
     index: "1. ",
-    imageSrc: "/img/iconos/Para_todos_los_dias_Icon.svg",
+    imageSrc: "/img/iconos/Para_todos_los_dias_icon.svg",
     imageAlt: "Manos en oración",
     href: "/oracion-diaria",
     target: "_self",
