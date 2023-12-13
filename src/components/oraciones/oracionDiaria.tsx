@@ -1,18 +1,18 @@
 import { Link } from "react-router-dom";
 function OracionDiaria() {
   return (
-    <div className="bg-home-pattern bg-no-repeat bg-contain bg-right-bottom px-6 py-2">
-      <div className=" flex justify-left">
+    <div className="bg-home-pattern bg-no-repeat bg-contain md:bg-right-bottom bg-bottom pb-36 md:pb-20 px-6 md:py-2">
+      <div className="flex flex-col md:flex-row items-center">
         <img
-          className="w-12 h-12 mr-2 rounded-full"
+          className="w-24 h-24 md:w-20 md:h-20 md:mr-4 rounded-full md:rounded-none"
           src="/img/iconos/Para_todos_los_dias_icon.svg"
-          alt=""
+          alt="Manos en oración"
         />
-        <h1 className="text-yellow-main text-5xl">
+        <h1 className="text-yellow-main md:text-5xl text-3xl mt-3 md:mt-0 text-center md:text-center">
           Oración para todos los días
         </h1>
       </div>
-      <div className="grid md:grid-cols-2 pb-20">
+      <div className="grid md:grid-cols-2 pb-20 pt-4">
         <div className="mx-auto max-w-2xl py-2 lg:max-w-none lg:py-4 text-white">
           <p className="mb-4 font-medium">
             Benignísimo Dios de infinita caridad, que tanto amasteis a los
@@ -30,8 +30,8 @@ function OracionDiaria() {
             terreno, para que Jesús recién nacido tenga en ellos su cuna y more
             eternamente.
           </p>
-          <h3 className="font-bold">Amén</h3>
-          <small className="mb-4 text-yellow-main">
+          <h3 className="font-bold mb-3">Amén</h3>
+          <small className="mt-4 text-yellow-main text-sm">
             Se reza tres veces el Gloria al Padre.
           </small>
           <Link to="/">
@@ -39,7 +39,7 @@ function OracionDiaria() {
               <img
                 className="w-8 h-8 rounded-full inline"
                 src="/img/iconos/Flecha_Icon.svg"
-                alt=""
+                alt="Flecha volver"
               />
               Volver
             </h3>

@@ -28,45 +28,43 @@ import Villancicos from "./components/villancicos/villancicos";
 
 function App() {
   return (
-    <main className="">
-      <div className="mx-auto max-w-7xl">
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="oracion-diaria" element={<OracionDiaria />} />
-          <Route path="oracion-virgen-maria" element={<OracionVirgenMaria />} />
-          <Route path="oracion-san-jose" element={<OracionSanJose />} />
-          <Route path="oracion-nino-jesus" element={<OracionNinoJesus />} />
-          <Route path="gozos" element={<Gozos />} />
-          <Route path="lecturas" element={<Lecturas />} />
-          <Route path="lecturas/dia-primero" element={<Lectura1 />} />
-          <Route path="lecturas/dia-segundo" element={<Lectura2 />} />
-          <Route path="lecturas/dia-tercero" element={<Lectura3 />} />
-          <Route path="lecturas/dia-cuarto" element={<Lectura4 />} />
-          <Route path="lecturas/dia-quinto" element={<Lectura5 />} />
-          <Route path="lecturas/dia-sexto" element={<Lectura6 />} />
-          <Route path="lecturas/dia-septimo" element={<Lectura7 />} />
-          <Route path="lecturas/dia-octavo" element={<Lectura8 />} />
-          <Route path="lecturas/dia-noveno" element={<Lectura9 />} />
-          <Route path="villancicos" element={<Villancicos />} />
-          <Route
-            path="villancicos/anton-tiruliruliru"
-            element={<Villancico1 />}
-          />
-          <Route
-            path="villancicos/campana-sobre-campana"
-            element={<Villancico2 />}
-          />
-          <Route path="villancicos/tutaina" element={<Villancico3 />} />
-          <Route
-            path="villancicos/los-peces-en-el-rio"
-            element={<Villancico4 />}
-          />
-          <Route path="villancicos/la-nanita-nana" element={<Villancico5 />} />
-          <Route path="villancicos/noche-de-paz" element={<Villancico6 />} />
-        </Routes>
-        <Footer />
-      </div>
+    <main className="flex flex-col mx-auto max-w-7xl min-h-screen">
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="oracion-diaria" element={<OracionDiaria />} />
+        <Route path="oracion-virgen-maria" element={<OracionVirgenMaria />} />
+        <Route path="oracion-san-jose" element={<OracionSanJose />} />
+        <Route path="oracion-nino-jesus" element={<OracionNinoJesus />} />
+        <Route path="gozos" element={<Gozos />} />
+        <Route path="lecturas" element={<Lecturas />} />
+        <Route path="lecturas/dia-primero" element={<Lectura1 />} />
+        <Route path="lecturas/dia-segundo" element={<Lectura2 />} />
+        <Route path="lecturas/dia-tercero" element={<Lectura3 />} />
+        <Route path="lecturas/dia-cuarto" element={<Lectura4 />} />
+        <Route path="lecturas/dia-quinto" element={<Lectura5 />} />
+        <Route path="lecturas/dia-sexto" element={<Lectura6 />} />
+        <Route path="lecturas/dia-septimo" element={<Lectura7 />} />
+        <Route path="lecturas/dia-octavo" element={<Lectura8 />} />
+        <Route path="lecturas/dia-noveno" element={<Lectura9 />} />
+        <Route path="villancicos" element={<Villancicos />} />
+        <Route
+          path="villancicos/anton-tiruliruliru"
+          element={<Villancico1 />}
+        />
+        <Route
+          path="villancicos/campana-sobre-campana"
+          element={<Villancico2 />}
+        />
+        <Route path="villancicos/tutaina" element={<Villancico3 />} />
+        <Route
+          path="villancicos/los-peces-en-el-rio"
+          element={<Villancico4 />}
+        />
+        <Route path="villancicos/la-nanita-nana" element={<Villancico5 />} />
+        <Route path="villancicos/noche-de-paz" element={<Villancico6 />} />
+      </Routes>
+      <Footer />
     </main>
   );
 }

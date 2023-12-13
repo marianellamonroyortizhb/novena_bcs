@@ -1,18 +1,18 @@
 import { Link } from "react-router-dom";
 function OracionVirgenMaria() {
   return (
-    <div className="bg-virgen-pattern bg-no-repeat bg-contain md:bg-right bg-bottom">
-      <div className="flex md:justify-left self-center lg:justify-left md:pt-10 pt-4 pb-4">
+    <div className="bg-virgen-pattern bg-no-repeat bg-contain md:bg-right-bottom bg-bottom pb-36 md:pb-40 px-6 md:py-2">
+      <div className="flex flex-col md:flex-row items-center">
         <img
-          className="w-12 h-12 mr-2 rounded-full"
+          className="w-24 h-24 md:w-20 md:h-20 md:mr-4 rounded-full md:rounded-none"
           src="/img/iconos/Virgen_Icon.svg"
-          alt=""
+          alt="Virgen María"
         />
-        <h1 className="text-yellow-main text-5xl">
+        <h1 className="text-yellow-main md:text-5xl text-3xl mt-3 md:mt-0 text-center md:text-center">
           Oración a la Santísima Virgen
         </h1>
       </div>
-      <div className="grid md:grid-cols-2">
+      <div className="grid md:grid-cols-2 pb-20 pt-4">
         <div className="mx-auto max-w-2xl py-2 lg:max-w-none lg:py-4 text-white">
           <p className="mb-4 font-medium">
             Soberana María, que por vuestras grandes virtudes y especialmente
@@ -26,8 +26,8 @@ function OracionVirgenMaria() {
             divina ternura con que le aguardasteis vos, para que nos hagáis
             menos indignos de verle, amarle y adorarle por toda la eternidad.
           </p>
-          <h3 className="font-bold">Amén</h3>
-          <small className="mb-4 text-yellow-main">
+          <h3 className="font-bold mb-3">Amén</h3>
+          <small className="mb-4 text-yellow-main text-sm">
             Se reza tres veces el Avemaría
           </small>
           <Link to="/">

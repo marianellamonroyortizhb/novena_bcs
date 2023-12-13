@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-function Lectura1() {
+function Lectura6() {
   return (
     <div className="bg-home-pattern bg-no-repeat bg-contain md:bg-right bg-bottom">
       <div className="flex md:justify-left self-center lg:justify-left md:pt-10 pt-4 pb-4">
@@ -76,4 +76,4 @@ function Lectura1() {
   );
 }
 
-export default Lectura1;
+export default Lectura6;

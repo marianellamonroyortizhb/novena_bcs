@@ -5,10 +5,10 @@ function Header() {
         <img
           src="/img/LogoBCS.svg"
           alt="Logo Banco Caja Social"
-          className="h-12 lg:h-14 text-center"
+          className="h-14 text-center mx-auto"
         />
       </a>
-      <hr className="my-4 border-gray-200 mx-auto dark:border-gray-700" />
+      <hr className="my-2 border-gray-200 mx-auto dark:border-gray-700" />
     </header>
   );
 }

@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-function Lectura1() {
+function Villancico5() {
   return (
     <div className="bg-home-pattern bg-no-repeat bg-contain md:bg-right bg-bottom">
       <div className="flex md:justify-left self-center lg:justify-left md:pt-10 pt-4 pb-4">
         <img
           className="w-12 h-12 mr-2 rounded-full"
-          src="/img/iconos/Lectura_hoy_Icon.svg"
-          alt=""
+          src="/img/iconos/Villancicos_Icon.svg"
+          alt="Disco de vinilo navideño"
         />
         <h1 className="text-yellow-main text-5xl">La Nanita Nana</h1>
       </div>
@@ -54,4 +54,4 @@ function Lectura1() {
   );
 }
 
-export default Lectura1;
+export default Villancico5;
