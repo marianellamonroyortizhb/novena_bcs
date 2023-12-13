@@ -1,64 +1,67 @@
 import { Link } from "react-router-dom";
 function Lectura4() {
   return (
-    <div className="bg-home-pattern bg-no-repeat bg-contain md:bg-right bg-bottom">
-      <div className="flex md:justify-left self-center lg:justify-left md:pt-10 pt-4 pb-4">
+    <div className="bg-home-pattern bg-no-repeat bg-contain md:bg-right-bottom bg-bottom pb-36 md:pb-54 px-6 md:py-2">
+      <div className="flex flex-col md:flex-row items-center">
         <img
-          className="w-12 h-12 mr-2 rounded-full"
+          className="w-24 h-24 md:w-20 md:h-20 md:mr-4 rounded-full md:rounded-none"
           src="/img/iconos/Lectura_hoy_Icon.svg"
-          alt=""
+          alt="Manos en oración"
         />
-        <h1 className="text-yellow-main text-5xl">Día Cuarto</h1>
+        <h1 className="text-yellow-main md:text-5xl text-3xl mt-3 md:mt-0 text-center md:text-center">
+          Día Cuarto
+        </h1>
       </div>
       <div className="grid md:grid-cols-2 pb-20">
         <div className="mx-auto max-w-2xl py-2 lg:max-w-none lg:py-4 text-white">
           <p className="mb-3">
-            En el principio de los tiempos el Verbo reposaba en el seno de su
-            Padre en lo más alto de los cielos; allí era la causa, a la par que
-            el modelo de toda la creación.
+            Desde el seno de su madre comenzó el Niño Jesús a poner en práctica
+            su entera sumisión a Dios, que continuó sin la menor interrupción
+            durante toda su vida.
           </p>
           <p className="mb-3">
-            En esas profundidades de una incalculable eternidad permanecía el
-            Niño de Belén antes de que se dignara bajar a la Tierra y tomara
-            visiblemente posesión de la gruta de Belén.
+            Adoraba a su Eterno Padre, le amaba, se sometía a su voluntad,
+            aceptaba con resignación el estado en que se hallaba conociendo toda
+            su debilidad, toda su humillación, todas sus incomodidades.
           </p>
           <p className="mb-3">
-            Allí es donde debemos buscar sus principios que jamás han
-            comenzando; de allí debemos datar la genealogía de lo eterno, que no
-            tiene antepasados y contemplar la vida de complacencia infinita que
-            allí llevaba.
+            ¿Quién de nosotros quisiera retroceder a un estado semejante con el
+            pleno goce de la razón y de la reflexión?, ¿quién pudiera sostener a
+            sabiendas un martirio tan prolongado, tan penoso de todas maneras?.
           </p>
           <p className="mb-3">
-            La vida del Verbo eterno en el seno de su Padre era una vida
-            maravillosa y sin embargo, ¡misterio sublime!, busca otra morada,
-            una mansión creada.
+            Por ahí entró el Divino Niño en su dolorosa y humilde carrera; así
+            empezó a anonadarse delante de su Padre, a enseñarnos lo que Dios
+            merece por parte de su criatura, a expiar nuestro orgullo, origen de
+            todos nuestros pecados, y hacemos sentir toda la criminalidad y
+            desórdenes del orgullo.
           </p>
           <p className="mb-3">
-            No era porque en su mansión eterna faltase algo a su infinita
-            felicidad, sino porque su misericordia infinita anhelaba la
-            redención y la salvación del género humano, que sin Él no podría
-            verificarse.
+            Deseamos hacer una verdadera oración; empecemos por formarnos de
+            ella una exacta idea contemplando al Niño en el seno de su madre, El
+            Divino Niño ora y ora del modo más excelente.
           </p>
           <p className="mb-3">
-            El pecado de Adán había ofendido a Dios y esa ofensa infinita no
-            podía ser condonada sino por los méritos del mismo Dios.
+            No habla, no medita ni se deshace en tiernos afectos. Su mismo
+            estado, aceptado con la intención de honrar a Dios, es su oración y
+            ese estado expresa altamente todo lo que Dios merece y de qué modo
+            quiere ser adorado por nosotros.
           </p>
           <p className="mb-3">
-            La raza de Adán había desobedecido y merecido un castigo eterno; era
-            pues necesario para salvarla y satisfacer su culpa, que Dios, sin
-            dejar el cielo, tomase la forma del hombre sobre la Tierra y con la
-            obediencia a los designios de su Padre expiase aquella
-            desobediencia, ingratitud y rebeldía.
+            Unámonos a las oraciones del Niño Dios en el seno de María; unámonos
+            al profundo abatimiento y sea este el primer afecto de nuestro
+            sacrificio a Dios.
           </p>
           <p className="mb-3">
-            Era necesario, en las miras de su amor, que tomase la forma, las
-            debilidades e ignorancias sistemáticas del hombre; que creciese para
-            darle crecimiento espiritual; que sufriese, para enseñarle a morir a
-            sus pasiones y a su orgullo.
+            Démonos a Dios, no para ser algo como lo pretende continuamente
+            nuestra vanidad, sino para ser nada, para quedar eternamente
+            consumidos y anonadados, para renunciar a la estimulación de
+            nosotros mismos, a todo cuidado de nuestra grandeza aunque sea
+            espiritual, a todo movimiento de vanagloria.
           </p>
           <p className="mb-3">
-            Y por eso el Verbo eterno, ardiendo en deseos de salvar al hombre,
-            resolvió hacerse hombre también y así redimir al culpable.
+            Desaparezcamos a nuestros propios ojos y que Dios sólo sea todo para
+            nosotros.
           </p>
           <Link to="/lecturas">
             <h3 className="text-xl text-yellow-main font-bold mt-14">

@@ -1,64 +1,73 @@
 import { Link } from "react-router-dom";
 function Lectura3() {
   return (
-    <div className="bg-home-pattern bg-no-repeat bg-contain md:bg-right bg-bottom">
-      <div className="flex md:justify-left self-center lg:justify-left md:pt-10 pt-4 pb-4">
+    <div className="bg-home-pattern bg-no-repeat bg-contain md:bg-right-bottom bg-bottom pb-36 md:pb-54 px-6 md:py-2">
+      <div className="flex flex-col md:flex-row items-center">
         <img
-          className="w-12 h-12 mr-2 rounded-full"
+          className="w-24 h-24 md:w-20 md:h-20 md:mr-4 rounded-full md:rounded-none"
           src="/img/iconos/Lectura_hoy_Icon.svg"
-          alt=""
+          alt="Manos en oración"
         />
-        <h1 className="text-yellow-main text-5xl">Día Tercero</h1>
+        <h1 className="text-yellow-main md:text-5xl text-3xl mt-3 md:mt-0 text-center md:text-center">
+          Día Tercero
+        </h1>
       </div>
       <div className="grid md:grid-cols-2 pb-20">
         <div className="mx-auto max-w-2xl py-2 lg:max-w-none lg:py-4 text-white">
           <p className="mb-3">
-            En el principio de los tiempos el Verbo reposaba en el seno de su
-            Padre en lo más alto de los cielos; allí era la causa, a la par que
-            el modelo de toda la creación.
+            Así había comenzado su vida encarnada el Niño Jesús.
           </p>
           <p className="mb-3">
-            En esas profundidades de una incalculable eternidad permanecía el
-            Niño de Belén antes de que se dignara bajar a la Tierra y tomara
-            visiblemente posesión de la gruta de Belén.
+            Consideremos el alma gloriosa y el santo cuerpo que había tomado,
+            adorándolos profundamente.
           </p>
           <p className="mb-3">
-            Allí es donde debemos buscar sus principios que jamás han
-            comenzando; de allí debemos datar la genealogía de lo eterno, que no
-            tiene antepasados y contemplar la vida de complacencia infinita que
-            allí llevaba.
+            Admirado en el primer lugar en el alma de ese Divino Niño,
+            considerarnos en ella la plenitud de su gracia santificadora; la de
+            su ciencia beatífica, por lo cual desde el primer momento de su vida
+            vio la divina esencia más claramente que todos los ángeles y leyó lo
+            pasado y lo por venir con todos sus arcanos conocimientos.
           </p>
           <p className="mb-3">
-            La vida del Verbo eterno en el seno de su Padre era una vida
-            maravillosa y sin embargo, ¡misterio sublime!, busca otra morada,
-            una mansión creada.
+            No supo por adquisición nada que no supiese por infusión desde el
+            primer momento de su ser; pero Él adoptó todas las enfermedades de
+            nuestra naturaleza a que dignamente podía someterse, aun cuando no
+            fuese necesario para la grande obra que debía cumplir.
           </p>
           <p className="mb-3">
-            No era porque en su mansión eterna faltase algo a su infinita
-            felicidad, sino porque su misericordia infinita anhelaba la
-            redención y la salvación del género humano, que sin Él no podría
-            verificarse.
+            Pidámosle que sus divinas facultades suplan la debilidad de las
+            nuestras y les den nueva energía; que su memoria nos enseñe a
+            recordar sus beneficios, su entendimiento a pensar en Él, su
+            voluntad a no hacer sino lo que Él quiere y en servicio suyo.
           </p>
           <p className="mb-3">
-            El pecado de Adán había ofendido a Dios y esa ofensa infinita no
-            podía ser condonada sino por los méritos del mismo Dios.
+            Del alma del Niño Jesús pasemos ahora a su cuerpo, que era un mundo
+            de maravillas, una obra maestra de la mano de Dios.
           </p>
           <p className="mb-3">
-            La raza de Adán había desobedecido y merecido un castigo eterno; era
-            pues necesario para salvarla y satisfacer su culpa, que Dios, sin
-            dejar el cielo, tomase la forma del hombre sobre la Tierra y con la
-            obediencia a los designios de su Padre expiase aquella
-            desobediencia, ingratitud y rebeldía.
+            No era como el nuestro, una traba para el alma; era, por el
+            contrario, un nuevo elemento de santidad.
           </p>
           <p className="mb-3">
-            Era necesario, en las miras de su amor, que tomase la forma, las
-            debilidades e ignorancias sistemáticas del hombre; que creciese para
-            darle crecimiento espiritual; que sufriese, para enseñarle a morir a
-            sus pasiones y a su orgullo.
+            Quiso que fuese pequeño y débil como el de los niños, y sujeto a
+            todas las incomodidades de la infancia, para asemejarse más a
+            nosotros y participar de nuestras humillaciones.
           </p>
           <p className="mb-3">
-            Y por eso el Verbo eterno, ardiendo en deseos de salvar al hombre,
-            resolvió hacerse hombre también y así redimir al culpable.
+            El Espíritu Santo formó ese cuerpecillo divino con tal delicadeza y
+            tal capacidad de sentir, que pudiese sufrir el exceso para cumplir
+            la grande obra de nuestra redención.
+          </p>
+          <p className="mb-3">
+            La belleza de ese cuerpo divino fue superior a cuanto se ha
+            imaginado jamás; la divina sangre que por sus venas empezó a
+            circular desde el momento de la encarnación es la que lava todas las
+            manchas del mundo culpable.
+          </p>
+          <p className="mb-3">
+            Pidámosle que lave las nuestras en el sacramento de la penitencia,
+            para que el día de su Navidad nos encuentre purificados, perdonados
+            y dispuestos a recibirle con amor y provecho espiritual.
           </p>
           <Link to="/lecturas">
             <h3 className="text-xl text-yellow-main font-bold mt-14">

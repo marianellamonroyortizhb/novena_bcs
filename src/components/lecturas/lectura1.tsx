@@ -9,10 +9,10 @@ function Lectura1() {
           alt="Manos en oración"
         />
         <h1 className="text-yellow-main md:text-5xl text-3xl mt-3 md:mt-0 text-center md:text-center">
-        Día Primero
+          Día Primero
         </h1>
       </div>
-      <div className="grid md:grid-cols-2">
+      <div className="grid md:grid-cols-2 pb-20">
         <div className="mx-auto max-w-2xl py-2 lg:max-w-none lg:py-4 text-white">
           <p className="mb-3">
             En el principio de los tiempos el Verbo reposaba en el seno de su

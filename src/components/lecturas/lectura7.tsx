@@ -1,64 +1,65 @@
 import { Link } from "react-router-dom";
 function Lectura7() {
   return (
-    <div className="bg-home-pattern bg-no-repeat bg-contain md:bg-right bg-bottom">
-      <div className="flex md:justify-left self-center lg:justify-left md:pt-10 pt-4 pb-4">
+    <div className="bg-home-pattern bg-no-repeat bg-contain md:bg-right-bottom bg-bottom pb-36 md:pb-54 px-6 md:py-2">
+      <div className="flex flex-col md:flex-row items-center">
         <img
-          className="w-12 h-12 mr-2 rounded-full"
+          className="w-24 h-24 md:w-20 md:h-20 md:mr-4 rounded-full md:rounded-none"
           src="/img/iconos/Lectura_hoy_Icon.svg"
-          alt=""
+          alt="Manos en oración"
         />
-        <h1 className="text-yellow-main text-5xl">Día Séptimo</h1>
+        <h1 className="text-yellow-main md:text-5xl text-3xl mt-3 md:mt-0 text-center md:text-center">
+          Día Séptimo
+        </h1>
       </div>
       <div className="grid md:grid-cols-2 pb-20">
         <div className="mx-auto max-w-2xl py-2 lg:max-w-none lg:py-4 text-white">
           <p className="mb-3">
-            En el principio de los tiempos el Verbo reposaba en el seno de su
-            Padre en lo más alto de los cielos; allí era la causa, a la par que
-            el modelo de toda la creación.
+            Representémonos el viaje de María y José hacia Belén, llevando
+            consigo, aún no nacido, al Creador del universo hecho hombre.
           </p>
           <p className="mb-3">
-            En esas profundidades de una incalculable eternidad permanecía el
-            Niño de Belén antes de que se dignara bajar a la Tierra y tomara
-            visiblemente posesión de la gruta de Belén.
+            Contemplemos la humanidad y la obediencia de este Divino Niño que
+            aunque de raza judía y habiendo amado durante siglos a su pueblo con
+            una predilección inexplicable, obedece así a un príncipe extranjero
+            que forma el censo de población de su provincia, como si hubiese
+            para Él en esa circunstancia algo que le halagase, y quisiese
+            apresurarse a aprovechar la ocasión de hacerse empadronar oficial y
+            auténticamente como súbdito en el momento en el que venía al mundo.
           </p>
           <p className="mb-3">
-            Allí es donde debemos buscar sus principios que jamás han
-            comenzando; de allí debemos datar la genealogía de lo eterno, que no
-            tiene antepasados y contemplar la vida de complacencia infinita que
-            allí llevaba.
+            ¿No es extraño que la humillación, que causa tan invencible
+            repugnancia a la criatura, parezca ser la única cosa creada que
+            tenga atractivos para el Creador? ¿No nos enseñará la humildad de
+            Jesús a amar esa hermosa virtud?.
           </p>
           <p className="mb-3">
-            La vida del Verbo eterno en el seno de su Padre era una vida
-            maravillosa y sin embargo, ¡misterio sublime!, busca otra morada,
-            una mansión creada.
+            ¡Ah...!Que llegue el momento en que aparezca el deseado de las
+            naciones, porque todo clama por este feliz acontecimiento, el mundo,
+            sumido en la oscuridad y el malestar buscando y no encontrando el
+            alivio de sus males, suspira por su Libertador.
           </p>
           <p className="mb-3">
-            No era porque en su mansión eterna faltase algo a su infinita
-            felicidad, sino porque su misericordia infinita anhelaba la
-            redención y la salvación del género humano, que sin Él no podría
-            verificarse.
+            El anhelo de José, la expectativa de María, son cosa que no puede
+            expresar el lenguaje humano.
           </p>
           <p className="mb-3">
-            El pecado de Adán había ofendido a Dios y esa ofensa infinita no
-            podía ser condonada sino por los méritos del mismo Dios.
+            El Padre Eterno se halla, si es lícito emplear esta expresión
+            adorablemente impaciente por dar a su Hijo único al mundo, y verle
+            ocupar su puesto entre las criaturas visibles.
           </p>
           <p className="mb-3">
-            La raza de Adán había desobedecido y merecido un castigo eterno; era
-            pues necesario para salvarla y satisfacer su culpa, que Dios, sin
-            dejar el cielo, tomase la forma del hombre sobre la Tierra y con la
-            obediencia a los designios de su Padre expiase aquella
-            desobediencia, ingratitud y rebeldía.
+            El Espíritu Santo arde en deseos de presentar a la luz del día esta
+            santa humanidad tan bella que Él mismo ha formado con tan especial y
+            divino esmero, en cuanto al Divino Niño, objeto de tantos anhelos,
+            recordemos que hacia nosotros avanza lo mimo que hacia Belén.
           </p>
           <p className="mb-3">
-            Era necesario, en las miras de su amor, que tomase la forma, las
-            debilidades e ignorancias sistemáticas del hombre; que creciese para
-            darle crecimiento espiritual; que sufriese, para enseñarle a morir a
-            sus pasiones y a su orgullo.
-          </p>
-          <p className="mb-3">
-            Y por eso el Verbo eterno, ardiendo en deseos de salvar al hombre,
-            resolvió hacerse hombre también y así redimir al culpable.
+            Apresuremos con nuestro deseo el momento de su llegada; purifiquemos
+            nuestras almas para que sean su mística morada, y nuestros corazones
+            para que sean su Manis terrenal; que nuestros actos de mortificación
+            desprendimiento, preparen los caminos del Señor y hagan rectos sus
+            senderos.
           </p>
           <Link to="/lecturas">
             <h3 className="text-xl text-yellow-main font-bold mt-14">
