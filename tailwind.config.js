@@ -11,6 +11,8 @@ module.exports = {
         "blue-medium-main": "#3faaf4",
         "light-blue-main": "#dbedfc",
         "yellow-main": "#facb58",
+        "pink-main": "#fa0379",
+        "purple-main": "#8344af",
       },
       backgroundImage: (theme) => ({
         "home-pattern": "url('../public/img/HomeBg.svg')",

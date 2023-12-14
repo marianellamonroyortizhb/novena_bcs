@@ -33,19 +33,19 @@ const indices = [
     target: "_self",
   },
   {
-    name: "Oración al Niño Jesús",
-    index: "5. ",
-    imageSrc: "/img/iconos/Nino_Jesus_Icon.svg",
-    imageAlt: "Niño Jesús",
-    href: "/oracion-nino-jesus",
-    target: "_self",
-  },
-  {
     name: "Gozos",
-    index: "6. ",
+    index: "5. ",
     imageSrc: "/img/iconos/Gozos_Icon.svg",
     imageAlt: "Ángel",
     href: "/gozos",
+    target: "_self",
+  },
+  {
+    name: "Oración al Niño Jesús",
+    index: "6. ",
+    imageSrc: "/img/iconos/Nino_Jesus_Icon.svg",
+    imageAlt: "Niño Jesús",
+    href: "/oracion-nino-jesus",
     target: "_self",
   },
   {
