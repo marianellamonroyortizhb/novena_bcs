@@ -3,7 +3,7 @@ function Footer() {
     <footer className="px-2 py-2">
       <div className="mx-auto">
         <hr className="border-gray-200 dark:border-gray-700 my-8" />
-        <div className="flex flex flex-col md:flex-row items-center items-center justify-between">
+        <div className="flex flex-col md:flex-row items-center justify-between">
           <span className="text-xs lg:text-sm text-white text-center dark:text-gray-400 pl-2">
             Copyright © 2023 Banco Caja Social
           </span>
