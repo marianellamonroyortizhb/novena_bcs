@@ -4,6 +4,7 @@ import Gozos from "./components/gozos/gozos";
 import Footer from "./components/home/footer";
 import Header from "./components/home/header";
 import Home from "./components/home/home";
+import Loader from "./components/home/loader";
 import Lectura1 from "./components/lecturas/lectura1";
 import Lectura2 from "./components/lecturas/lectura2";
 import Lectura3 from "./components/lecturas/lectura3";
@@ -29,6 +30,7 @@ import Villancicos from "./components/villancicos/villancicos";
 function App() {
   return (
     <main className="flex flex-col mx-auto max-w-7xl min-h-screen">
+      <Loader />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
