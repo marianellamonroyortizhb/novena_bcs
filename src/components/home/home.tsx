@@ -7,7 +7,7 @@ const indices = [
   {
     name: "Oración para todos los días",
     index: "1. ",
-    imageSrc: "/img/iconos/Para_todos_los_dias_icon.svg",
+    imageSrc: "/novena/img/iconos/Para_todos_los_dias_icon.svg",
     imageAlt: "Oración para todos los días",
     href: "/oracion-diaria",
     target: "_self",
@@ -16,7 +16,7 @@ const indices = [
   {
     name: "Lectura del día",
     index: "2. ",
-    imageSrc: "/img/iconos/Lectura_hoy_Icon.svg",
+    imageSrc: "/novena/img/iconos/Lectura_hoy_Icon.svg",
     imageAlt: "Lectura del día",
     href: "/lecturas",
     target: "_self",
@@ -25,7 +25,7 @@ const indices = [
   {
     name: "Oración a la Santísima Virgen",
     index: "3. ",
-    imageSrc: "/img/iconos/Virgen_Icon.svg",
+    imageSrc: "/novena/img/iconos/Virgen_Icon.svg",
     imageAlt: "Oración a la Santísima Virgen",
     href: "/oracion-virgen-maria",
     target: "_self",
@@ -34,7 +34,7 @@ const indices = [
   {
     name: "Oración a San José",
     index: "4. ",
-    imageSrc: "/img/iconos/San_Jose_Icon.svg",
+    imageSrc: "/novena/img/iconos/San_Jose_Icon.svg",
     imageAlt: "Oración a San José",
     href: "/oracion-san-jose",
     target: "_self",
@@ -43,7 +43,7 @@ const indices = [
   {
     name: "Gozos",
     index: "5. ",
-    imageSrc: "/img/iconos/Gozos_Icon.svg",
+    imageSrc: "/novena/img/iconos/Gozos_Icon.svg",
     imageAlt: "Gozos",
     href: "/gozos",
     target: "_self",
@@ -52,7 +52,7 @@ const indices = [
   {
     name: "Oración al Niño Jesús",
     index: "6. ",
-    imageSrc: "/img/iconos/Nino_Jesus_Icon.svg",
+    imageSrc: "/novena/img/iconos/Nino_Jesus_Icon.svg",
     imageAlt: "Oración al Niño Jesús",
     href: "/oracion-nino-jesus",
     target: "_self",
@@ -61,7 +61,7 @@ const indices = [
   {
     name: "Villancicos",
     index: "7. ",
-    imageSrc: "/img/iconos/Villancicos_Icon.svg",
+    imageSrc: "/novena/img/iconos/Villancicos_Icon.svg",
     imageAlt: "Villancicos",
     href: "/villancicos",
     target: "_self",
@@ -70,7 +70,7 @@ const indices = [
   {
     name: "Conozca nuestros productos digitales",
     index: "",
-    imageSrc: "/img/iconos/Productos_Icon.svg",
+    imageSrc: "/novena/img/iconos/Productos_Icon.svg",
     imageAlt: "Conozca nuestros productos digitales",
     href: "https://digital.bancocajasocial.com/aperturaoficinas?utm_source=novena_digital&utm_medium=medios_propios&utm_campaign=novena_cross&utm_term=boton_novena_digital",
     target: "_blank",

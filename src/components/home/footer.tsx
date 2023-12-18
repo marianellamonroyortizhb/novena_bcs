@@ -13,7 +13,7 @@ function Footer() {
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <img
-                src="/img/Facebook.svg"
+                src="/novena/img/Facebook.svg"
                 alt="Facebook"
                 title="Facebook"
                 width={20}
@@ -25,7 +25,7 @@ function Footer() {
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <img
-                src="/img/Twitter.svg"
+                src="/novena/img/Twitter.svg"
                 alt="Twitter"
                 title="Twitter"
                 width={20}
@@ -37,7 +37,7 @@ function Footer() {
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <img
-                src="/img/Youtube.svg"
+                src="/novena/img/Youtube.svg"
                 alt="Youtube"
                 title="Youtube"
                 width={20}
@@ -49,7 +49,7 @@ function Footer() {
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <img
-                src="/img/Linkedin.svg"
+                src="/novena/img/Linkedin.svg"
                 alt="Linkedin"
                 title="Linkedin"
                 width={20}
@@ -61,7 +61,7 @@ function Footer() {
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <img
-                src="/img/Instagram.svg"
+                src="/novena/img/Instagram.svg"
                 alt="Instagram"
                 title="Instagram"
                 width={20}

@@ -21,18 +21,18 @@ const Loader: React.FC = () => {
           <div className="loader">
             {}
             <img
-              src="/img/LogoBCS.svg"
+              src="/novena/img/LogoBCS.svg"
               alt="Logo Banco Caja Social"
               title="Logo Banco Caja Social"
               className="h-10 mx-auto"
             />
             <img
-              src="/img/BuenVecino.gif"
+              src="/novena/img/BuenVecino.gif"
               alt="Buen Vecino"
               title="Buen Vecino"
             />
             <img
-              src="/img/LoaderTitle.svg"
+              src="/novena/img/LoaderTitle.svg"
               alt="Novena Navideña"
               title="Novena Navideña"
             />

@@ -5,7 +5,7 @@ function Lectura6() {
       <div className="flex flex-col md:flex-row items-center">
         <img
           className="w-24 h-24 md:w-20 md:h-20 md:mr-4 rounded-full md:rounded-none"
-          src="/img/iconos/Lectura_hoy_Icon.svg"
+          src="/novena/img/iconos/Lectura_hoy_Icon.svg"
           alt="Manos en oración"
           title="Manos en oración"
         />
@@ -60,7 +60,7 @@ function Lectura6() {
             <h3 className="text-xl text-yellow-main font-bold mt-14">
               <img
                 className="w-8 h-8 rounded-full inline"
-                src="/img/iconos/Flecha_Icon.svg"
+                src="/novena/img/iconos/Flecha_Icon.svg"
                 alt="Flecha para volver"
                 title="Flecha para volver"
               />

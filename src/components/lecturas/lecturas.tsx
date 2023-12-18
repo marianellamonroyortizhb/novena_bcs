@@ -79,7 +79,7 @@ function Lecturas() {
         <h3 className="text-xl text-yellow-main font-bold mt-14">
           <img
             className="w-8 h-8 rounded-full inline"
-            src="/img/iconos/Flecha_Icon.svg"
+            src="/novena/img/iconos/Flecha_Icon.svg"
             alt="Flecha para volver"
             title="Flecha para volver"
           />
