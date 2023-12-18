@@ -1,5 +1,7 @@
 import { useEffect } from "react";
+import TagManager from "react-gtm-module";
 import { Link } from "react-router-dom";
+type GTMDataLayerProps = (event: string) => void;
 
 const indices = [
   {
@@ -9,6 +11,7 @@ const indices = [
     imageAlt: "Oración para todos los días",
     href: "/oracion-diaria",
     target: "_self",
+    event: "click_oracion_dia",
   },
   {
     name: "Lectura del día",
@@ -17,6 +20,7 @@ const indices = [
     imageAlt: "Lectura del día",
     href: "/lecturas",
     target: "_self",
+    event: "click_lectura_dia",
   },
   {
     name: "Oración a la Santísima Virgen",
@@ -25,6 +29,7 @@ const indices = [
     imageAlt: "Oración a la Santísima Virgen",
     href: "/oracion-virgen-maria",
     target: "_self",
+    event: "click_oracion_virgen_maria",
   },
   {
     name: "Oración a San José",
@@ -33,6 +38,7 @@ const indices = [
     imageAlt: "Oración a San José",
     href: "/oracion-san-jose",
     target: "_self",
+    event: "click_oracion_san_Jose",
   },
   {
     name: "Gozos",
@@ -41,6 +47,7 @@ const indices = [
     imageAlt: "Gozos",
     href: "/gozos",
     target: "_self",
+    event: "click_gozos",
   },
   {
     name: "Oración al Niño Jesús",
@@ -49,6 +56,7 @@ const indices = [
     imageAlt: "Oración al Niño Jesús",
     href: "/oracion-nino-jesus",
     target: "_self",
+    event: "click_oracion_nino_jesus",
   },
   {
     name: "Villancicos",
@@ -57,6 +65,7 @@ const indices = [
     imageAlt: "Villancicos",
     href: "/villancicos",
     target: "_self",
+    event: "click_villancicos",
   },
   {
     name: "Conozca nuestros productos digitales",
@@ -65,12 +74,26 @@ const indices = [
     imageAlt: "Conozca nuestros productos digitales",
     href: "https://digital.bancocajasocial.com/aperturaoficinas?utm_source=novena_digital&utm_medium=medios_propios&utm_campaign=novena_cross&utm_term=boton_novena_digital",
     target: "_blank",
+    event: "click_productos_digitales",
   },
 ];
+
+export const ClickButton: GTMDataLayerProps = (event) => {
+  TagManager.dataLayer({
+    dataLayer: {
+      event,
+    },
+  });
+};
 
 function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
+    TagManager.dataLayer({
+      dataLayer: {
+        event: "carga_home_menu",
+      },
+    });
   }, []);
   return (
     <div className="bg-home-pattern bg-no-repeat md:bg-contain bg-bottom md:bg-right-bottom px-3 py-3 pb-72 md:pb-44">
@@ -85,7 +108,11 @@ function Home() {
           <div className="grid grid-cols-2 gap-4 md:gap-8">
             {indices.map((indice) => (
               <div key={indice.name} className="w-full">
-                <Link to={indice.href} target={indice.target}>
+                <Link
+                  to={indice.href}
+                  target={indice.target}
+                  onClick={() => ClickButton(indice.event)}
+                >
                   <div className="bg-light-blue-main shadow-cyan-200/50 hover:shadow-cyan-200/90 shadow-lg rounded-lg overflow-hidden px-1 py-2 md:p-3 flex justify-between items-center user-card">
                     <div className="flex items-center">
                       <img

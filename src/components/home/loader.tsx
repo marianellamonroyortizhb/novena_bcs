@@ -31,7 +31,11 @@ const Loader: React.FC = () => {
               alt="Buen Vecino"
               title="Buen Vecino"
             />
-            <img src="/img/LoaderTitle.svg" />
+            <img
+              src="/img/LoaderTitle.svg"
+              alt="Novena Navideña"
+              title="Novena Navideña"
+            />
           </div>
         </div>
       )}
