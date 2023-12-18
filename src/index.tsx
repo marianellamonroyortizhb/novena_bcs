@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.REACT_APP_HOME_PAGE}>
+    <BrowserRouter basename="/novena">
       <App />
     </BrowserRouter>
     ,
