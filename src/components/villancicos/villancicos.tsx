@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 const villancicos = [
   {
@@ -45,6 +46,9 @@ const villancicos = [
 ];
 
 function Villancicos() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="bg-villancicos-pattern bg-no-repeat md:bg-contain bg-bottom md:bg-right-bottom px-3 py-3 pb-72 md:pb-40">
       <div className="justify-left">
@@ -79,7 +83,8 @@ function Villancicos() {
                 <img
                   className="w-8 h-8 rounded-full inline"
                   src="/img/iconos/Flecha_Icon.svg"
-                  alt=""
+                  alt="Flecha para volver"
+                  title="Flecha para volver"
                 />
                 Volver
               </h3>

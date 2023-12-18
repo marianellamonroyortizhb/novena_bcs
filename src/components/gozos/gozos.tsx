@@ -6,7 +6,8 @@ function Gozos() {
         <img
           className="w-12 h-12 mr-2 rounded-full"
           src="/img/iconos/Gozos_Icon.svg"
-          alt=""
+          alt="Ángel"
+          title="Ángel"
         />
         <h1 className="text-yellow-main text-5xl">Gozos</h1>
       </div>
@@ -247,7 +248,8 @@ function Gozos() {
                     <img
                       className="w-16 h- rounded-full"
                       src="/img/iconos/Gozos_Icon.svg"
-                      alt=""
+                      alt="Ángel"
+                      title="Ángel"
                     />
                   </div>
                 </div>
@@ -263,7 +265,8 @@ function Gozos() {
                 <img
                   className="w-8 h-8 rounded-full inline"
                   src="/img/iconos/Flecha_Icon.svg"
-                  alt=""
+                  alt="Flecha para volver"
+                  title="Flecha para volver"
                 />
                 Volver
               </h3>

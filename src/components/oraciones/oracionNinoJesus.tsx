@@ -7,6 +7,7 @@ function OracionNinoJesus() {
           className="w-24 h-24 md:w-20 md:h-20 md:mr-4 rounded-full md:rounded-none"
           src="/img/iconos/Nino_Jesus_Icon.svg"
           alt="Niño Jesús"
+          title="Niño Jesús"
         />
         <h1 className="text-yellow-main md:text-5xl text-3xl mt-3 md:mt-0 text-center md:text-center">
           Oración al Niño Jesús
@@ -47,7 +48,8 @@ function OracionNinoJesus() {
               <img
                 className="w-8 h-8 rounded-full inline"
                 src="/img/iconos/Flecha_Icon.svg"
-                alt=""
+                alt="Flecha para volver"
+                title="Flecha para volver"
               />
               Volver
             </h3>

@@ -20,7 +20,17 @@ const Loader: React.FC = () => {
         <div className="introModal">
           <div className="loader">
             {}
-            <img src="/img/BuenVecino.gif" alt="Loader" />
+            <img
+              src="/img/LogoBCS.svg"
+              alt="Logo Banco Caja Social"
+              title="Logo Banco Caja Social"
+              className="h-10 mx-auto"
+            />
+            <img
+              src="/img/BuenVecino.gif"
+              alt="Buen Vecino"
+              title="Buen Vecino"
+            />
             <img src="/img/LoaderTitle.svg" />
           </div>
         </div>

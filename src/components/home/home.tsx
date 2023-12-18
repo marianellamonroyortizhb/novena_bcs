@@ -1,10 +1,12 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
+
 const indices = [
   {
     name: "Oración para todos los días",
     index: "1. ",
     imageSrc: "/img/iconos/Para_todos_los_dias_icon.svg",
-    imageAlt: "Manos en oración",
+    imageAlt: "Oración para todos los días",
     href: "/oracion-diaria",
     target: "_self",
   },
@@ -12,7 +14,7 @@ const indices = [
     name: "Lectura del día",
     index: "2. ",
     imageSrc: "/img/iconos/Lectura_hoy_Icon.svg",
-    imageAlt: "Libro sobre mano",
+    imageAlt: "Lectura del día",
     href: "/lecturas",
     target: "_self",
   },
@@ -20,7 +22,7 @@ const indices = [
     name: "Oración a la Santísima Virgen",
     index: "3. ",
     imageSrc: "/img/iconos/Virgen_Icon.svg",
-    imageAlt: "Virgen María",
+    imageAlt: "Oración a la Santísima Virgen",
     href: "/oracion-virgen-maria",
     target: "_self",
   },
@@ -28,7 +30,7 @@ const indices = [
     name: "Oración a San José",
     index: "4. ",
     imageSrc: "/img/iconos/San_Jose_Icon.svg",
-    imageAlt: "San José",
+    imageAlt: "Oración a San José",
     href: "/oracion-san-jose",
     target: "_self",
   },
@@ -36,7 +38,7 @@ const indices = [
     name: "Gozos",
     index: "5. ",
     imageSrc: "/img/iconos/Gozos_Icon.svg",
-    imageAlt: "Ángel",
+    imageAlt: "Gozos",
     href: "/gozos",
     target: "_self",
   },
@@ -44,7 +46,7 @@ const indices = [
     name: "Oración al Niño Jesús",
     index: "6. ",
     imageSrc: "/img/iconos/Nino_Jesus_Icon.svg",
-    imageAlt: "Niño Jesús",
+    imageAlt: "Oración al Niño Jesús",
     href: "/oracion-nino-jesus",
     target: "_self",
   },
@@ -52,7 +54,7 @@ const indices = [
     name: "Villancicos",
     index: "7. ",
     imageSrc: "/img/iconos/Villancicos_Icon.svg",
-    imageAlt: "Disco de vinilo navideño",
+    imageAlt: "Villancicos",
     href: "/villancicos",
     target: "_self",
   },
@@ -60,13 +62,16 @@ const indices = [
     name: "Conozca nuestros productos digitales",
     index: "",
     imageSrc: "/img/iconos/Productos_Icon.svg",
-    imageAlt: "Caja con estrella dentro",
+    imageAlt: "Conozca nuestros productos digitales",
     href: "https://digital.bancocajasocial.com/aperturaoficinas?utm_source=novena_digital&utm_medium=medios_propios&utm_campaign=novena_cross&utm_term=boton_novena_digital",
     target: "_blank",
   },
 ];
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="bg-home-pattern bg-no-repeat md:bg-contain bg-bottom md:bg-right-bottom px-3 py-3 pb-72 md:pb-44">
       <div className="justify-left">
@@ -87,6 +92,7 @@ function Home() {
                         className="w-8 h-8 md:w-14 md:h-14 rounded-full"
                         src={indice.imageSrc}
                         alt={indice.imageAlt}
+                        title={indice.imageAlt}
                       />
                       <h3 className="ml-1 md:ml-2 md:text-lg text-xs font-semibold">
                         <span className="text-blue-main">{indice.index}</span>
