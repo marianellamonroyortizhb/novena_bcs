@@ -3,7 +3,7 @@ function Header() {
     <header className="px-2 py-2">
       <a href="https://www.bancocajasocial.com/">
         <img
-          src="/novena/img/LogoBCS.svg"
+          src="/img/LogoBCS.svg"
           alt="Logo Banco Caja Social"
           title="Logo Banco Caja Social"
           className="h-14 mx-auto md:mx-2"

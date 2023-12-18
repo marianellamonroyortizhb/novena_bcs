@@ -5,7 +5,7 @@ function OracionSanJose() {
       <div className="flex flex-col md:flex-row items-center">
         <img
           className="w-24 h-24 md:w-20 md:h-20 md:mr-4 rounded-full md:rounded-none"
-          src="/novena/img/iconos/San_Jose_Icon.svg"
+          src="/img/iconos/San_Jose_Icon.svg"
           alt="San José"
           title="San José"
         />
@@ -34,7 +34,7 @@ function OracionSanJose() {
             <h3 className="text-xl text-yellow-main font-bold mt-14">
               <img
                 className="w-8 h-8 rounded-full inline"
-                src="/novena/img/iconos/Flecha_Icon.svg"
+                src="/img/iconos/Flecha_Icon.svg"
                 alt="Flecha para volver"
                 title="Flecha para volver"
               />

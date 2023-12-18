@@ -5,7 +5,7 @@ function Gozos() {
       <div className="flex justify-left">
         <img
           className="w-12 h-12 mr-2 rounded-full"
-          src="/novena/img/iconos/Gozos_Icon.svg"
+          src="/img/iconos/Gozos_Icon.svg"
           alt="Ángel"
           title="Ángel"
         />
@@ -247,7 +247,7 @@ function Gozos() {
                   <div className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-blue-medium-main bg-blue-medium-main">
                     <img
                       className="w-16 h- rounded-full"
-                      src="/novena/img/iconos/Gozos_Icon.svg"
+                      src="/img/iconos/Gozos_Icon.svg"
                       alt="Ángel"
                       title="Ángel"
                     />
@@ -264,7 +264,7 @@ function Gozos() {
               <h3 className="text-xl text-yellow-main font-bold mt-14">
                 <img
                   className="w-8 h-8 rounded-full inline"
-                  src="/novena/img/iconos/Flecha_Icon.svg"
+                  src="/img/iconos/Flecha_Icon.svg"
                   alt="Flecha para volver"
                   title="Flecha para volver"
                 />

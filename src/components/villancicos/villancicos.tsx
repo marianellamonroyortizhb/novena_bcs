@@ -4,42 +4,42 @@ const villancicos = [
   {
     name: "Anton Tiruliruliru",
     index: "1.",
-    imageSrc: "/novena/img/iconos/Villancicos_Icon.svg",
+    imageSrc: "/img/iconos/Villancicos_Icon.svg",
     imageAlt: "Disco de vinilo navideño",
     href: "/villancicos/anton-tiruliruliru",
   },
   {
     name: "Campana sobre campana",
     index: "2.",
-    imageSrc: "/novena/img/iconos/Villancicos_Icon.svg",
+    imageSrc: "/img/iconos/Villancicos_Icon.svg",
     imageAlt: "Disco de vinilo navideño",
     href: "/villancicos/campana-sobre-campana",
   },
   {
     name: "Tutaina",
     index: "3.",
-    imageSrc: "/novena/img/iconos/Villancicos_Icon.svg",
+    imageSrc: "/img/iconos/Villancicos_Icon.svg",
     imageAlt: "Disco de vinilo navideño",
     href: "/villancicos/tutaina",
   },
   {
     name: "Los peces en el río",
     index: "4.",
-    imageSrc: "/novena/img/iconos/Villancicos_Icon.svg",
+    imageSrc: "/img/iconos/Villancicos_Icon.svg",
     imageAlt: "Disco de vinilo navideño",
     href: "/villancicos/los-peces-en-el-rio",
   },
   {
     name: "La Nanita Nana",
     index: "5.",
-    imageSrc: "/novena/img/iconos/Villancicos_Icon.svg",
+    imageSrc: "/img/iconos/Villancicos_Icon.svg",
     imageAlt: "Disco de vinilo navideño",
     href: "/villancicos/la-nanita-nana",
   },
   {
     name: "Noche de paz",
     index: "6.",
-    imageSrc: "/novena/img/iconos/Villancicos_Icon.svg",
+    imageSrc: "/img/iconos/Villancicos_Icon.svg",
     imageAlt: "Disco de vinilo navideño",
     href: "/villancicos/noche-de-paz",
   },
@@ -82,7 +82,7 @@ function Villancicos() {
               <h3 className="text-xl text-yellow-main font-bold mt-14">
                 <img
                   className="w-8 h-8 rounded-full inline"
-                  src="/novena/img/iconos/Flecha_Icon.svg"
+                  src="/img/iconos/Flecha_Icon.svg"
                   alt="Flecha para volver"
                   title="Flecha para volver"
                 />
