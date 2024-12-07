@@ -5,7 +5,7 @@ function Footer() {
         <hr className="border-gray-200 dark:border-gray-700 my-8" />
         <div className="flex flex-col md:flex-row items-center justify-between">
           <span className="text-xs lg:text-sm text-white text-center dark:text-gray-400 pl-2">
-            Copyright © 2023 Banco Caja Social
+            Copyright © 2024 Banco Caja Social
           </span>
           <div className="flex space-x-3 pr-2 mt-3">
             <a
